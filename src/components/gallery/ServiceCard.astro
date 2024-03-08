@@ -1,0 +1,25 @@
+---
+import { Image } from "astro:assets";
+
+const { imageUrl, altText, name, description } = Astro.props;
+---
+
+<article class="flex flex-col">
+  <picture>
+    <Image
+      src={imageUrl}
+      alt={altText}
+      width="600"
+      height="600"
+      decoding="async"
+      loading="lazy"
+      class="aspect-square w-full h-full object-cover"
+    />
+  </picture>
+  <h3
+    class="leading-normal uppercase font-extrabold text-[3.5vw] md:text-[2vw]"
+  >
+    {name}
+  </h3>
+  <p>{description}</p>
+</article>

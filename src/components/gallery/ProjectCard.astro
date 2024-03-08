@@ -1,0 +1,44 @@
+---
+import { Image } from "astro:assets";
+
+const { to, imageUrl, altText, title } = Astro.props;
+---
+
+<article>
+  <picture>
+    <Image
+      src={imageUrl}
+      alt={altText}
+      width={800}
+      height={1200}
+      decoding="async"
+      loading="lazy"
+      class="aspect-2/3 max-h-[52rem] w-full object-cover"
+    />
+  </picture>
+  <a
+    href={to}
+    target="_blank"
+    class="relative flex items-center justify-between transition group"
+  >
+    <h3
+      class="leading-normal uppercase font-extrabold text-[3.5vw] md:text-[2vw]"
+    >
+      {title}
+    </h3>
+    <svg
+      class="icon icon-tabler icon-tabler-arrow-up-right w-4 h-4 md:w-8 md:h-8"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+        d="M17 7l-10 10"></path><path d="M8 7l9 0l0 9"></path>
+    </svg>
+    <span
+      class="absolute bottom-0 left-0 w-full h-0.5 md:h-1 bg-black rounded-full origin-bottom-right transform transition duration-500 ease-out scale-x-0 group-hover:scale-x-100 group-hover:origin-bottom-left"
+    ></span>
+  </a>
+</article>

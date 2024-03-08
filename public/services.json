@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Videography",
+        "image": "https://images.unsplash.com/photo-1540173196447-4a4acda7007e?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Videography is the process of capturing moving images like wedding photography etc. It is used in animation and motion effects industries. It is also used in the entertainment industry for movies, videos, and commercials.",
+        "altText": "Videography image"
+    },
+    {
+        "id": 2,
+        "name": "Motion Video",
+        "image": "https://plus.unsplash.com/premium_photo-1682141878168-5dace8e1785d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Motion video is a type of video that is used to create motion effects in the video. It is used in the animation industry to create motion effects in the video. It is also used in the entertainment industry for movies, videos, and commercials.",
+        "altText": "Motion Video image"
+    },
+    {
+        "id": 3,
+        "name": "Photography",
+        "image": "https://images.unsplash.com/photo-1554080353-321e452ccf19?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Photography is the process of capturing images using a camera. It is used in the animation and motion effects industries. It is also used in the entertainment industry for movies, videos, and commercials.",
+        "altText": "Photography image"
+    },
+    {
+        "id": 4,
+        "name": "Light set up",
+        "image": "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Light set up is the process of setting up lights for the video. It is used in the animation and motion effects industries. It is also used in the entertainment industry for movies, videos, and commercials.",
+        "altText": "Light set up image"
+    }
+]

@@ -1,0 +1,11 @@
+---
+const { attributes } = Astro.props;
+---
+
+<button
+  type="button"
+  {...attributes}
+  class="text-sm font-semibold uppercase rounded-full border border-black hover:bg-black hover:text-white hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-inset focus:ring-neutral-500 px-4 py-1.5"
+>
+  <slot />
+</button>
